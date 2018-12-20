@@ -1,3 +1,3 @@
 # OVERVIEW
 
-boilerplate for a Python project
+boilerplate 🏭 for a Python project
