@@ -4,6 +4,6 @@ boilerplate 🏭 for a Python project
 
 __TODO__
 
+* _add_: `requirements-prod.txt`, `requirements-prod.txt`, coverage, `setup.py`, `.editorconfig`
 * _research_: https://github.com/reorx/project_sketch
-* _add_: coverage, `setup.py`, `.editorconfig`
 * _CLI_: `--min`, `--max`
