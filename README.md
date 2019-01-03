@@ -1,6 +1,7 @@
 # OVERVIEW
 
 * boilerplate 🏭 for a Python project
+* taking cues from [Hitchhiker's Guide to Python](https://docs.python-guide.org/) and [creat-react-app](https://github.com/facebook/create-react-app)
 
 __TODO__
 
