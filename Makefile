@@ -1,5 +1,5 @@
 coverage:test
-	coverage report
+	coverage report; coverage html; open htmlcov/index.html
 
 pip-install:
 	pip install -r requirements.txt
