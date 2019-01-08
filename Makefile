@@ -1,5 +1,5 @@
-coverage:test
-	coverage report; coverage html; open htmlcov/index.html
+coverage-report:test
+	coverage html
 
 pip-install:
 	pip install -r requirements.txt
@@ -11,4 +11,4 @@ pip-reset:
 	pip install -r requirements.txt
 
 test:
-	coverage run --source='src' -m unittest discover -v
+	coverage run --source='src' -m unittest discover -v; coverage report -m
