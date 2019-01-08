@@ -1,3 +1,6 @@
+coverage:test
+	coverage report
+
 pip-install:
 	pip install -r requirements.txt
 
@@ -8,4 +11,4 @@ pip-reset:
 	pip install -r requirements.txt
 
 test:
-	python3 -m unittest discover -v
+	coverage run --source='src' -m unittest discover -v

@@ -1,2 +1,2 @@
-def return_something():
-	return "something"
+def my_function():
+    return 'something'
