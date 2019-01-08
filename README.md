@@ -1,7 +1,7 @@
 # OVERVIEW
 
-* boilerplate 🏭 for a Python project
-* taking cues from [Hitchhiker's Guide to Python](https://docs.python-guide.org/) and [creat-react-app](https://github.com/facebook/create-react-app)
+* ♻️ boilerplate for a sensibly minimal Flask app
+* I've a similar project aiming to tackle this problem for [generic Flask app boilerplate](https://github.com/zachvalenta/create-flask-app)
 
 __TODO__
 
