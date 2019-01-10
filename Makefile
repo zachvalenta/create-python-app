@@ -1,6 +1,9 @@
 coverage-report:test
 	coverage html
 
+lint:
+	flake8 src
+
 pip-install:
 	pip install -r requirements.txt
 
