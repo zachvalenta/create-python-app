@@ -13,6 +13,9 @@ cov:test
 lint:
 	flake8 src
 
+pipfr:
+	pip freeze > requirements.txt
+
 pip-in:
 	pip install -r requirements.txt
 
