@@ -1,5 +1,12 @@
+# coverage.py
 .coverage
-.DS_Store
-.idea
 htmlcov
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea
+
+# virtualenv
 venv
