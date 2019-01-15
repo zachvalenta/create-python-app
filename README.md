@@ -12,4 +12,4 @@
 ## TODOS
 
 * _add_: `requirements-dev/prod.txt`, `.editorconfig`
-* _research_: https://www.python-boilerplate.com + https://github.com/reorx/project_sketch + https://github.com/mnebuerquo/virtuous-python + https://github.com/Luavis/create-flask-app + https://github.com/mahmoud/awesome-python-applications
+* _research_: https://www.python-boilerplate.com + https://github.com/reorx/project_sketch + https://github.com/mnebuerquo/virtuous-python + https://github.com/Luavis/create-flask-app + https://github.com/mahmoud/awesome-python-applications + http://tjelvarolsson.com/blog/five-steps-to-add-the-bling-factor-to-your-python-package/
