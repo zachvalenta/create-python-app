@@ -16,10 +16,10 @@ lint:
 pipfr:
 	pip freeze > requirements.txt
 
-pip-in:
+pipin:
 	pip install -r requirements.txt
 
-pip-rs:
+piprs:
 	pip freeze > pkgs-to-rm.txt
 	pip uninstall -y -r pkgs-to-rm.txt
 	rm pkgs-to-rm.txt
