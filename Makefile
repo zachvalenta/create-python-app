@@ -1,11 +1,14 @@
 .PHONY: test
 
 help:
+	@echo
 	@echo "cov:     generate coverage report"
 	@echo "lint:    lint using flake8"
-	@echo "pipin:  install dependencies from requirements.txt"
-	@echo "piprs:  remove any installed pkg *not* in requirements.txt"
+	@echo "pipfr:   freeze dependencies into requirements.txt"
+	@echo "pipin:   install dependencies from requirements.txt"
+	@echo "piprs:   remove any installed pkg *not* in requirements.txt"
 	@echo "test:    exec unit tests"
+	@echo
 
 cov:test
 	coverage html
