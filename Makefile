@@ -3,8 +3,8 @@
 help:
 	@echo "cov:     generate coverage report"
 	@echo "lint:    lint using flake8"
-	@echo "pip-in:  install dependencies from requirements.txt"
-	@echo "pip-rs:  remove any installed pkg *not* in requirements.txt"
+	@echo "pipin:  install dependencies from requirements.txt"
+	@echo "piprs:  remove any installed pkg *not* in requirements.txt"
 	@echo "test:    exec unit tests"
 
 cov:test
