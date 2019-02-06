@@ -2,12 +2,17 @@
 
 help:
 	@echo
-	@echo "cov:     generate HTML from coverage report, view HTML report in browser"
+	@echo "📊 CODE QUALITY"
+	@echo
 	@echo "lint:    lint using flake8"
+	@echo "test:    run unit tests, view basic coverage report in terminal"
+	@echo "cov:     view HTML coverage report in browser"
+	@echo
+	@echo "📦 DEPENDENCIES"
+	@echo
 	@echo "pipfr:   freeze dependencies into requirements.txt"
 	@echo "pipin:   install dependencies from requirements.txt"
 	@echo "piprs:   remove any installed pkg *not* in requirements.txt"
-	@echo "test:    exec unit tests, generate coverage report, view basic report in terminal"
 	@echo
 
 cov:test
