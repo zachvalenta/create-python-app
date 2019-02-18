@@ -34,4 +34,4 @@ piprs:
 	pip install -r requirements.txt
 
 test:
-	coverage run --source='src' -m unittest discover -v; coverage report -m
+	coverage run --source='src' -m unittest discover -v && coverage report -m
