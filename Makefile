@@ -44,4 +44,4 @@ piprs:
 	@echo
 
 test:
-	coverage run --source='src' -m unittest discover -v && coverage report -m
+	coverage run --source='src' -m pytest -v && coverage report -m
