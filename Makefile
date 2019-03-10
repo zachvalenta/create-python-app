@@ -28,10 +28,20 @@ pipin:
 	pip install -r requirements.txt
 
 piprs:
+	@echo "🔍 - DISCOVERING UNSAVED PACKAGES\n"
 	pip freeze > pkgs-to-rm.txt
+	@echo
+	@echo "📦 - UNINSTALL ALL PACKAGES\n"
 	pip uninstall -y -r pkgs-to-rm.txt
-	rm pkgs-to-rm.txt
+	@echo
+	@echo "♻️  - REINSTALL SAVED PACKAGES\n"
 	pip install -r requirements.txt
+	@echo
+	@echo "🗑  - UNSAVED PACKAGES REMOVED\n"
+	diff pkgs-to-rm.txt requirements.txt | grep '<'
+	@echo
+	rm pkgs-to-rm.txt
+	@echo
 
 test:
 	coverage run --source='src' -m unittest discover -v && coverage report -m
