@@ -1,7 +1,5 @@
-import unittest
 from src.app import my_function
 
 
-class TestApp(unittest.TestCase):
-    def test_myfunction(self):
-        self.assertEqual(my_function(), 'something')
+def test_my_function():
+	assert my_function() == 'something'
