@@ -1,6 +1,6 @@
 # what is this?
 
-* ♻️ boilerplate for a Python app
+* ♻️ boilerplate for Python projects
 
 # tooling
 
