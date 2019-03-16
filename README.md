@@ -17,4 +17,4 @@
 
 * clone repo
 * remove the `.git` directory and initialize your own Git repo
-* make the first commit in your new repo; your project has a good foundation!
+* make the first commit in your new repo!
