@@ -14,4 +14,5 @@ pycodestyle==2.4.0
 pyflakes==2.0.0
 Pygments==2.3.1
 pytest==4.3.0
+python-dotenv==0.10.1
 six==1.12.0

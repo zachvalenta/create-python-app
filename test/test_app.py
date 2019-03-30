@@ -1,5 +1,5 @@
-from src.app import my_function
+from src.app import demo_function
 
 
 def test_my_function():
-	assert my_function() == 'something'
+	assert demo_function() == 'something'

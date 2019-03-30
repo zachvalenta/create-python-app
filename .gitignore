@@ -2,6 +2,9 @@
 .coverage
 htmlcov
 
+# env var
+.env
+
 # macOS
 .DS_Store
 
