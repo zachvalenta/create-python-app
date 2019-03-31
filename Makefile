@@ -2,6 +2,10 @@
 
 help:
 	@echo
+	@echo "🐛 DEBUG"
+	@echo
+	@echo "repl:    debug using bpython"
+	@echo
 	@echo "📊 CODE QUALITY"
 	@echo
 	@echo "lint:    lint using flake8"
@@ -42,6 +46,9 @@ piprs:
 	@echo
 	rm pkgs-to-rm.txt
 	@echo
+
+repl:
+	bpython
 
 test:
 	coverage run --source='src' -m pytest -v && coverage report -m
