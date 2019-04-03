@@ -8,9 +8,10 @@ help:
 	@echo
 	@echo "📊 CODE QUALITY"
 	@echo
-	@echo "lint:    lint using flake8"
-	@echo "test:    run unit tests, view basic coverage report in terminal"
 	@echo "cov:     view HTML coverage report in browser"
+	@echo "lint:    lint using flake8"
+	@echo "secure:  security check using bandit"
+	@echo "test:    run unit tests, view basic coverage report in terminal"
 	@echo
 	@echo "📦 DEPENDENCIES"
 	@echo
@@ -49,6 +50,9 @@ piprs:
 
 repl:
 	bpython
+
+secure:
+	bandit -r src
 
 test:
 	coverage run --source='src' -m pytest -v && coverage report -m
