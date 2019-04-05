@@ -12,7 +12,9 @@
 
 # tooling
 
+* security scan: [bandit](https://github.com/openstack/bandit)
+* enhanced REPL: [bpython](https://github.com/bpython/bpython)
 * unit tests: [pytest](https://github.com/pytest-dev/pytest)
 * test coverage: [coverage](https://github.com/nedbat/coveragepy)
 * logging: [loguru](https://github.com/Delgan/loguru)
-* enhanced REPL: [bpython](https://github.com/bpython/bpython)
+* env var: [python-dotenv](https://github.com/theskumar/python-dotenv)
