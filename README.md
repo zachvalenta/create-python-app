@@ -14,7 +14,10 @@
 
 * security scan: [bandit](https://github.com/openstack/bandit)
 * enhanced REPL: [bpython](https://github.com/bpython/bpython)
-* unit tests: [pytest](https://github.com/pytest-dev/pytest)
-* test coverage: [coverage](https://github.com/nedbat/coveragepy)
-* logging: [loguru](https://github.com/Delgan/loguru)
 * env var: [python-dotenv](https://github.com/theskumar/python-dotenv)
+* logging: [loguru](https://github.com/Delgan/loguru)
+* testing
+    - runner: [pytest](https://github.com/pytest-dev/pytest)
+    - coverage: [coverage](https://github.com/nedbat/coveragepy)
+    - progress bar: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
+
