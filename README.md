@@ -8,10 +8,11 @@
 * remove the `.git` directory and initialize your own Git repo
 * make the first commit in your new repo!
 
-📝 run `make help` to explore other handy options :)
-
 # tooling
 
+📝 run `make help` to use these tools
+
+* auto formatting: [Black](https://github.com/ambv/black)
 * security scan: [bandit](https://github.com/openstack/bandit)
 * enhanced REPL: [bpython](https://github.com/bpython/bpython)
 * env var: [python-dotenv](https://github.com/theskumar/python-dotenv)
@@ -20,4 +21,3 @@
     - runner: [pytest](https://github.com/pytest-dev/pytest)
     - coverage: [coverage](https://github.com/nedbat/coveragepy)
     - progress bar: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
-

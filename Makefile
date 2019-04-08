@@ -9,6 +9,7 @@ help:
 	@echo "📊 CODE QUALITY"
 	@echo
 	@echo "cov:     view HTML coverage report in browser"
+	@echo "fmt:     auto format code using Black"
 	@echo "lint:    lint using flake8"
 	@echo "secure:  security check using bandit"
 	@echo "test:    run unit tests, view basic coverage report in terminal"
@@ -22,6 +23,9 @@ help:
 
 cov:test
 	coverage html; open htmlcov/index.html
+
+fmt:
+	black src test
 
 lint:
 	flake8 src
