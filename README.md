@@ -18,6 +18,6 @@
 * __env var__: [python-dotenv](https://github.com/theskumar/python-dotenv)
 * __logging__: [loguru](https://github.com/Delgan/loguru)
 * __testing__
-    - _runner_: [pytest](https://github.com/pytest-dev/pytest)
-    - _coverage_: [coverage](https://github.com/nedbat/coveragepy)
-    - _progress bar_: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
+    - __runner__: [pytest](https://github.com/pytest-dev/pytest)
+    - __coverage__: [coverage](https://github.com/nedbat/coveragepy)
+    - __progress bar__: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
