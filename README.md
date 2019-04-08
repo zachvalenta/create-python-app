@@ -12,12 +12,12 @@
 
 📝 run `make help` to use these tools
 
-* auto formatting: [Black](https://github.com/ambv/black)
-* security scan: [bandit](https://github.com/openstack/bandit)
-* enhanced REPL: [bpython](https://github.com/bpython/bpython)
-* env var: [python-dotenv](https://github.com/theskumar/python-dotenv)
-* logging: [loguru](https://github.com/Delgan/loguru)
-* testing
-    - runner: [pytest](https://github.com/pytest-dev/pytest)
-    - coverage: [coverage](https://github.com/nedbat/coveragepy)
-    - progress bar: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
+* __auto formatting__: [Black](https://github.com/ambv/black)
+* __security scan__: [bandit](https://github.com/openstack/bandit)
+* __enhanced REPL__: [bpython](https://github.com/bpython/bpython)
+* __env var__: [python-dotenv](https://github.com/theskumar/python-dotenv)
+* __logging__: [loguru](https://github.com/Delgan/loguru)
+* __testing__
+    - _runner_: [pytest](https://github.com/pytest-dev/pytest)
+    - _coverage_: [coverage](https://github.com/nedbat/coveragepy)
+    - _progress bar_: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
