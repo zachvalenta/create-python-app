@@ -5,17 +5,15 @@
 
 # what is this?
 
-* ♻️ boilerplate for Python projects
+🌱️ seed your Python repo w/ security, auto formatting, an enhanced REPL, and more...
 
 # how to use?
 
-* clone repo
-* remove the `.git` directory and initialize your own Git repo
+* clone the repo
+* remove the `.git` directory and initialize your own Git repo w/ `git init`
 * make the first commit in your new repo!
 
 # tooling
-
-📝 run `make help` to use these tools
 
 * __auto formatting__: [Black](https://github.com/ambv/black)
 * __security scan__: [bandit](https://github.com/openstack/bandit)
@@ -26,3 +24,31 @@
     - __runner__: [pytest](https://github.com/pytest-dev/pytest)
     - __coverage__: [coverage](https://github.com/nedbat/coveragepy)
     - __progress bar__: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
+
+# commands
+
+use the tools via the `Makefile`
+
+run `make help` to see available commands
+
+```sh
+$ make help
+
+🐛 DEBUG
+
+repl:    debug using bpython
+
+📊 CODE QUALITY
+
+cov:     view HTML coverage report in browser
+fmt:     auto format code using Black
+lint:    lint using flake8
+secure:  security check using bandit
+test:    run unit tests, view basic coverage report in terminal
+
+📦 DEPENDENCIES
+
+pipfr:   freeze dependencies into requirements.txt
+pipin:   install dependencies from requirements.txt
+piprs:   remove any installed pkg *not* in requirements.txt
+```
