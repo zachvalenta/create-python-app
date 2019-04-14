@@ -5,12 +5,12 @@
 
 # what is this?
 
-🌱️ seed your Python repo w/ security, auto formatting, an enhanced REPL, and more...
+🌱️ seed your Python repo w/ security, auto formatting, an enhanced REPL, and more.
 
 # how to use?
 
-* clone the repo
-* remove the `.git` directory and initialize your own Git repo w/ `git init`
+* clone the repo (`git clone git@github.com:zachvalenta/create-python-app.git`)
+* remove the `.git` directory and initialize your own (`git init`)
 * make the first commit in your new repo!
 
 # tooling
@@ -27,28 +27,26 @@
 
 # commands
 
-use the tools via the `Makefile`
-
-run `make help` to see available commands
+run `make help` to see all the cool stuff you get for free!
 
 ```sh
-$ make help
+(venv) $ make help
 
 🐛 DEBUG
 
-repl:    debug using bpython
+repl:    	debug using bpython
 
 📊 CODE QUALITY
 
-cov:     view HTML coverage report in browser
-fmt:     auto format code using Black
-lint:    lint using flake8
-secure:  security check using bandit
-test:    run unit tests, view basic coverage report in terminal
+cov:     	view HTML coverage report in browser
+fmt:     	auto format code using Black
+lint:    	lint using flake8
+secure:  	security check using Bandit
+test:    	run unit tests, view basic coverage report in terminal
 
 📦 DEPENDENCIES
 
-pipfr:   freeze dependencies into requirements.txt
-pipin:   install dependencies from requirements.txt
-piprs:   remove any installed pkg *not* in requirements.txt
+freeze:   	freeze dependencies into requirements.txt
+install:   	install dependencies from requirements.txt
+reset:   	remove any installed pkg *not* in requirements.txt
 ```
