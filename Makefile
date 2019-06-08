@@ -18,7 +18,7 @@ help:
 	@echo
 	@echo "freeze:   	freeze dependencies into requirements.txt"
 	@echo "install:   	install dependencies from requirements.txt"
-	@echo "reset:   	remove any installed pkg *not* in requirements.txt"
+	@echo "purge:   	remove any installed pkg *not* in requirements.txt"
 	@echo
 
 cov:test
@@ -36,7 +36,7 @@ freeze:
 install:
 	pip install -r requirements.txt
 
-reset:
+purge:
 	@echo "🔍 - DISCOVERING UNSAVED PACKAGES\n"
 	pip freeze > pkgs-to-rm.txt
 	@echo
