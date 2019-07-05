@@ -21,8 +21,8 @@ help:
 	@echo "purge:   	remove any installed pkg *not* in requirements.txt"
 	@echo
 
-cov:test
-	coverage html; open htmlcov/index.html
+cov
+	open htmlcov/index.html
 
 fmt:
 	black src test
