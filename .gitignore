@@ -11,5 +11,8 @@ htmlcov
 # PyCharm
 .idea
 
+# pytest
+.pytest_cache
+
 # virtualenv
 venv
