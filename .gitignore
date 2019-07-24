@@ -8,6 +8,9 @@ htmlcov
 # macOS
 .DS_Store
 
+# pdoc
+html
+
 # PyCharm
 .idea
 

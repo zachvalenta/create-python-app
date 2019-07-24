@@ -9,6 +9,7 @@ help:
 	@echo "📊 CODE QUALITY"
 	@echo
 	@echo "cov:     	view HTML coverage report in browser"
+	@echo "docs:     	create and open docs"
 	@echo "fmt:     	auto format code using Black"
 	@echo "lint:    	lint using flake8"
 	@echo "secure:  	security check using Bandit"
@@ -21,8 +22,11 @@ help:
 	@echo "purge:   	remove any installed pkg *not* in requirements.txt"
 	@echo
 
-cov
+cov:
 	open htmlcov/index.html
+
+docs:
+	pdoc --force --html -c show_source_code=False src/app.py; open html/app.html
 
 fmt:
 	black src test
