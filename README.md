@@ -16,10 +16,11 @@
 # tooling
 
 * __auto formatting__: [Black](https://github.com/ambv/black)
-* __security scan__: [bandit](https://github.com/openstack/bandit)
-* __enhanced REPL__: [bpython](https://github.com/bpython/bpython)
+* __docs__: [pdoc](https://github.com/pdoc3/pdoc)
 * __env var__: [python-dotenv](https://github.com/theskumar/python-dotenv)
 * __logging__: [loguru](https://github.com/Delgan/loguru)
+* __REPL__: [bpython](https://github.com/bpython/bpython)
+* __security__: [bandit](https://github.com/openstack/bandit)
 * __testing__
     - __runner__: [pytest](https://github.com/pytest-dev/pytest)
     - __coverage__: [coverage](https://github.com/nedbat/coveragepy)
