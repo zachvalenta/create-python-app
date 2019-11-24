@@ -16,6 +16,7 @@
 # tooling
 
 * __auto formatting__: [Black](https://github.com/ambv/black)
+* __linting__: [flake8](https://gitlab.com/pycqa/flake8)
 * __docs__: [pdoc](https://github.com/pdoc3/pdoc)
 * __env var__: [python-dotenv](https://github.com/theskumar/python-dotenv)
 * __logging__: [loguru](https://github.com/Delgan/loguru)
