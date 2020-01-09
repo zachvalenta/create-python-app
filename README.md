@@ -5,15 +5,9 @@
 
 # what is this?
 
-🌱️ seed your Python repo w/ security, auto formatting, an enhanced REPL, and more.
+Scaffold for a Python app seeded with security, auto formatting, an enhanced REPL, and more.
 
-# how to use?
-
-* clone the repo (`git clone git@github.com:zachvalenta/create-python-app.git`)
-* remove the `.git` directory and initialize your own (`git init`)
-* make the first commit in your new repo!
-
-# tooling
+__tooling__
 
 * __auto formatting__: [Black](https://github.com/ambv/black)
 * __linting__: [flake8](https://gitlab.com/pycqa/flake8)
@@ -26,29 +20,30 @@
     - __runner__: [pytest](https://github.com/pytest-dev/pytest)
     - __coverage__: [coverage](https://github.com/nedbat/coveragepy)
     - __progress bar__: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
+# how to use?
 
-# commands
+* __Git__: clone the repo, then make it your own by removing the connection to this remote (`git remote rm git@github.com:zachvalenta/create-python-app.git`) and re-initializing the commit history (`rm .git` then `git init`)
+* __dependencies__: `poetry install`
+* __env var__: `ln -sf .env.dev .env`
+* __run__: `make flask`
+* __everything else__: `make help`
 
-run `make help` to see all the cool stuff you get for free!
+```makefile
+🛠  UTILS
 
-```sh
-(venv) $ make help
-
-🐛 DEBUG
-
-repl:    	debug using bpython
+repl:       debug using bpython
+secure:     security check using Bandit
 
 📊 CODE QUALITY
 
-cov:     	view HTML coverage report in browser
-fmt:     	auto format code using Black
-lint:    	lint using flake8
-secure:  	security check using Bandit
-test:    	run unit tests, view basic coverage report in terminal
+test:       run unit tests, view basic coverage report in terminal
+cov:        view HTML coverage report in browser
+lint:       lint using flake8
+fmt:        autoformat using black
 
 📦 DEPENDENCIES
 
-freeze:   	freeze dependencies into requirements.txt
-install:   	install dependencies from requirements.txt
-reset:   	remove any installed pkg *not* in requirements.txt
+env:        show environment info
+deps:       list prod dependencies
+
 ```

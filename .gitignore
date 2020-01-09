@@ -1,21 +1,12 @@
-# coverage.py
+# coverage
 .coverage
 htmlcov
 
 # env var
 .env
 
-# macOS
-.DS_Store
-
 # pdoc
 html
 
-# PyCharm
-.idea
-
 # pytest
 .pytest_cache
-
-# virtualenv
-venv
