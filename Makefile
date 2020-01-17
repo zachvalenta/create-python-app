@@ -25,33 +25,33 @@ help:
 #
 
 repl:
-	bpython
+	poetry run bpython
 
 secure:
-	bandit -r src
+	poetry run bandit -r src
 
 #
 # 📊 CODE QUALITY
 #
 
 test:
-	coverage run --source='src' -m pytest -v && coverage report -m
+	poetry run coverage run --source='src' -m pytest -v && poetry run coverage report -m
 
 cov:
 	open htmlcov/index.html
 
 lint:
-	flake8 src
+	poetry run flake8 src
 
 fmt:
-	black src test
+	poetry run black src test
 
 #
 # 📦 DEPENDENCIES
 #
 
 env:
-	poetry env info
+	poetry run poetry env info
 
 deps:
-	poetry show --tree --no-dev
+	poetry run poetry show --tree --no-dev
