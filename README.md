@@ -20,13 +20,38 @@ __tooling__
     - __runner__: [pytest](https://github.com/pytest-dev/pytest)
     - __coverage__: [coverage](https://github.com/nedbat/coveragepy)
     - __progress bar__: [pytest-sugar](https://github.com/Frozenball/pytest-sugar)
+
 # how to use?
 
-* __Git__: clone the repo, then make it your own by removing the connection to this remote (`git remote rm git@github.com:zachvalenta/create-python-app.git`) and re-initializing the commit history (`rm .git` then `git init`)
-* __dependencies__: `poetry install`
-* __env var__: `ln -sf .env.dev .env`
-* __run__: `make flask`
-* __everything else__: `make help`
+__Git__
+
+```sh
+# clone repo
+git clone git@github.com:zachvalenta/create-python-app.git
+
+# rm connection to this remote
+git remote rm git@github.com:zachvalenta/create-python-app.git
+
+# rm history
+rm .git
+
+# restart commit history for your own work
+git init
+```
+
+__set up environment__
+
+install dependencies
+```sh
+poetry install
+```
+
+set up envionmental variable
+```sh
+ln -sf .env.dev .env
+```
+
+__everything else__
 
 ```makefile
 🛠  UTILS
