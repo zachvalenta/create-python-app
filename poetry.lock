@@ -390,13 +390,13 @@ testing = ["importlib-resources", "packaging"]
 
 [[package]]
 name = "loguru"
-version = "0.4.0"
+version = "0.5.3"
 description = "Python logging made (stupidly) simple"
 optional = false
 python-versions = ">=3.5"
 files = [
-    {file = "loguru-0.4.0-py3-none-any.whl", hash = "sha256:6e3e8d865201f5a301a4eb7563f4c9e979d80fbe6f6fa919b3e3a7e095106c7b"},
-    {file = "loguru-0.4.0.tar.gz", hash = "sha256:d5ddf363b7e0e562652f283f74a89bf35601baf16b70f2cd2736a2f8c6638748"},
+    {file = "loguru-0.5.3-py3-none-any.whl", hash = "sha256:f8087ac396b5ee5f67c963b495d615ebbceac2796379599820e324419d53667c"},
+    {file = "loguru-0.5.3.tar.gz", hash = "sha256:b28e72ac7a98be3d28ad28570299a393dfcd32e5e3f6a353dec94675767b6319"},
 ]
 
 [package.dependencies]
@@ -405,7 +405,7 @@ colorama = {version = ">=0.3.4", markers = "sys_platform == \"win32\""}
 win32-setctime = {version = ">=1.0.0", markers = "sys_platform == \"win32\""}
 
 [package.extras]
-dev = ["Sphinx (>=2.2.1)", "black (>=19.3b0)", "codecov (>=2.0.15)", "colorama (>=0.3.4)", "flake8 (>=3.7.7)", "isort (>=4.3.20)", "pytest (>=4.6.2)", "pytest-cov (>=2.7.1)", "sphinx-autobuild (>=0.7.1)", "sphinx-rtd-theme (>=0.4.3)", "tox (>=3.9.0)", "tox-travis (>=0.12)"]
+dev = ["Sphinx (>=2.2.1)", "black (>=19.10b0)", "codecov (>=2.0.15)", "colorama (>=0.3.4)", "flake8 (>=3.7.7)", "isort (>=5.1.1)", "pytest (>=4.6.2)", "pytest-cov (>=2.7.1)", "sphinx-autobuild (>=0.7.1)", "sphinx-rtd-theme (>=0.4.3)", "tox (>=3.9.0)", "tox-travis (>=0.12)"]
 
 [[package]]
 name = "mako"
@@ -933,4 +933,4 @@ testing = ["contextlib2", "pathlib2", "unittest2"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.6"
-content-hash = "f24c1668d8defe2b95513c2473a1c197cb327428aecb5136cc042d7a3a00594b"
+content-hash = "d985d4b91f90a1a39d43dc9a84f2ff45c533ea0c7e587e3976ab8d02b2916887"
